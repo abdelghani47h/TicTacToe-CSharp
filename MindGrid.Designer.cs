@@ -1,0 +1,431 @@
+﻿namespace Tic_Tac_Toe_Game
+{
+    partial class MindGrid
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MindGrid));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelHowTurnNow = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.labelWhoWinnerGame = new System.Windows.Forms.Label();
+            this.GButtonRestartGame = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.GButtonExitGame = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.GBorderLessFormMindGrid = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.labelTimeNow = new System.Windows.Forms.Label();
+            this.PictureBoxTurnImage = new System.Windows.Forms.PictureBox();
+            this.PictureBoxHowWinnerImage = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxTurnImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxHowWinnerImage)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox1.Location = new System.Drawing.Point(865, 203);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox2.Location = new System.Drawing.Point(1135, 203);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox3.Location = new System.Drawing.Point(1400, 203);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox4.Location = new System.Drawing.Point(865, 417);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox5.Location = new System.Drawing.Point(1135, 417);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox6.Location = new System.Drawing.Point(1400, 417);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox7.Location = new System.Drawing.Point(865, 625);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox8.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox8.Location = new System.Drawing.Point(1135, 625);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox9.Image = global::MindGrid.Properties.Resources.NOT_Image;
+            this.pictureBox9.Location = new System.Drawing.Point(1400, 625);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(201, 166);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBoxMindGridGame_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(27, 245);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(527, 91);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Whose Turn !";
+            // 
+            // labelHowTurnNow
+            // 
+            this.labelHowTurnNow.AutoSize = true;
+            this.labelHowTurnNow.BackColor = System.Drawing.Color.Transparent;
+            this.labelHowTurnNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHowTurnNow.ForeColor = System.Drawing.Color.White;
+            this.labelHowTurnNow.Location = new System.Drawing.Point(181, 361);
+            this.labelHowTurnNow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelHowTurnNow.Name = "labelHowTurnNow";
+            this.labelHowTurnNow.Size = new System.Drawing.Size(223, 58);
+            this.labelHowTurnNow.TabIndex = 1;
+            this.labelHowTurnNow.Text = "-----------";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 69.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(21, 487);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(668, 132);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "The Winner";
+            // 
+            // labelWhoWinnerGame
+            // 
+            this.labelWhoWinnerGame.AutoSize = true;
+            this.labelWhoWinnerGame.BackColor = System.Drawing.Color.Transparent;
+            this.labelWhoWinnerGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWhoWinnerGame.ForeColor = System.Drawing.Color.White;
+            this.labelWhoWinnerGame.Location = new System.Drawing.Point(183, 619);
+            this.labelWhoWinnerGame.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelWhoWinnerGame.Name = "labelWhoWinnerGame";
+            this.labelWhoWinnerGame.Size = new System.Drawing.Size(271, 58);
+            this.labelWhoWinnerGame.TabIndex = 1;
+            this.labelWhoWinnerGame.Text = "In Process";
+            // 
+            // GButtonRestartGame
+            // 
+            this.GButtonRestartGame.Animated = true;
+            this.GButtonRestartGame.AnimatedGIF = true;
+            this.GButtonRestartGame.BackColor = System.Drawing.Color.Transparent;
+            this.GButtonRestartGame.BorderRadius = 10;
+            this.GButtonRestartGame.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.GButtonRestartGame.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.GButtonRestartGame.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.GButtonRestartGame.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.GButtonRestartGame.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.GButtonRestartGame.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(130)))), ((int)(((byte)(244)))));
+            this.GButtonRestartGame.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.GButtonRestartGame.ForeColor = System.Drawing.Color.White;
+            this.GButtonRestartGame.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonRestartGame.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(130)))), ((int)(((byte)(244)))));
+            this.GButtonRestartGame.Location = new System.Drawing.Point(152, 738);
+            this.GButtonRestartGame.Margin = new System.Windows.Forms.Padding(4);
+            this.GButtonRestartGame.Name = "GButtonRestartGame";
+            this.GButtonRestartGame.Size = new System.Drawing.Size(327, 69);
+            this.GButtonRestartGame.TabIndex = 2;
+            this.GButtonRestartGame.Text = "Restart Game";
+            this.GButtonRestartGame.Click += new System.EventHandler(this.GButtonRestartGame_Click);
+            // 
+            // GButtonExitGame
+            // 
+            this.GButtonExitGame.Animated = true;
+            this.GButtonExitGame.AnimatedGIF = true;
+            this.GButtonExitGame.BackColor = System.Drawing.Color.Transparent;
+            this.GButtonExitGame.BorderRadius = 10;
+            this.GButtonExitGame.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.GButtonExitGame.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.GButtonExitGame.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.GButtonExitGame.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.GButtonExitGame.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.GButtonExitGame.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(130)))), ((int)(((byte)(244)))));
+            this.GButtonExitGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.GButtonExitGame.ForeColor = System.Drawing.Color.White;
+            this.GButtonExitGame.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.GButtonExitGame.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(130)))), ((int)(((byte)(244)))));
+            this.GButtonExitGame.Location = new System.Drawing.Point(152, 815);
+            this.GButtonExitGame.Margin = new System.Windows.Forms.Padding(4);
+            this.GButtonExitGame.Name = "GButtonExitGame";
+            this.GButtonExitGame.Size = new System.Drawing.Size(327, 69);
+            this.GButtonExitGame.TabIndex = 2;
+            this.GButtonExitGame.Text = "Exit Game";
+            this.GButtonExitGame.Click += new System.EventHandler(this.GButtonExitGame_Click);
+            // 
+            // GBorderLessFormMindGrid
+            // 
+            this.GBorderLessFormMindGrid.BorderRadius = 40;
+            this.GBorderLessFormMindGrid.ContainerControl = this;
+            this.GBorderLessFormMindGrid.DockIndicatorTransparencyValue = 0.6D;
+            this.GBorderLessFormMindGrid.TransparentWhileDrag = true;
+            // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // labelTimeNow
+            // 
+            this.labelTimeNow.AutoSize = true;
+            this.labelTimeNow.BackColor = System.Drawing.Color.Transparent;
+            this.labelTimeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTimeNow.ForeColor = System.Drawing.Color.White;
+            this.labelTimeNow.Location = new System.Drawing.Point(1608, 932);
+            this.labelTimeNow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTimeNow.Name = "labelTimeNow";
+            this.labelTimeNow.Size = new System.Drawing.Size(23, 20);
+            this.labelTimeNow.TabIndex = 1;
+            this.labelTimeNow.Text = "--";
+            // 
+            // PictureBoxTurnImage
+            // 
+            this.PictureBoxTurnImage.BackColor = System.Drawing.Color.Transparent;
+            this.PictureBoxTurnImage.Location = new System.Drawing.Point(127, 366);
+            this.PictureBoxTurnImage.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBoxTurnImage.Name = "PictureBoxTurnImage";
+            this.PictureBoxTurnImage.Size = new System.Drawing.Size(49, 49);
+            this.PictureBoxTurnImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBoxTurnImage.TabIndex = 3;
+            this.PictureBoxTurnImage.TabStop = false;
+            // 
+            // PictureBoxHowWinnerImage
+            // 
+            this.PictureBoxHowWinnerImage.BackColor = System.Drawing.Color.Transparent;
+            this.PictureBoxHowWinnerImage.Image = global::MindGrid.Properties.Resources.In_Process1;
+            this.PictureBoxHowWinnerImage.Location = new System.Drawing.Point(125, 625);
+            this.PictureBoxHowWinnerImage.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBoxHowWinnerImage.Name = "PictureBoxHowWinnerImage";
+            this.PictureBoxHowWinnerImage.Size = new System.Drawing.Size(49, 49);
+            this.PictureBoxHowWinnerImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBoxHowWinnerImage.TabIndex = 3;
+            this.PictureBoxHowWinnerImage.TabStop = false;
+            // 
+            // MindGrid
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1851, 961);
+            this.Controls.Add(this.PictureBoxHowWinnerImage);
+            this.Controls.Add(this.PictureBoxTurnImage);
+            this.Controls.Add(this.GButtonExitGame);
+            this.Controls.Add(this.GButtonRestartGame);
+            this.Controls.Add(this.labelTimeNow);
+            this.Controls.Add(this.labelWhoWinnerGame);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelHowTurnNow);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "MindGrid";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Mind Grid";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.MindGrid_Paint);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxTurnImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxHowWinnerImage)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelHowTurnNow;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelWhoWinnerGame;
+        private Guna.UI2.WinForms.Guna2GradientButton GButtonRestartGame;
+        private Guna.UI2.WinForms.Guna2GradientButton GButtonExitGame;
+        private Guna.UI2.WinForms.Guna2BorderlessForm GBorderLessFormMindGrid;
+        private System.Windows.Forms.Label labelTimeNow;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.PictureBox PictureBoxTurnImage;
+        private System.Windows.Forms.PictureBox PictureBoxHowWinnerImage;
+    }
+}
+
