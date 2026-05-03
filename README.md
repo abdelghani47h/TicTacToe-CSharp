@@ -20,9 +20,10 @@ It combines a clean interface, smooth interactions, and a colorful design to del
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-Screenshots of the game interface will be added here.
+<img width="1835" height="930" alt="image" src="https://github.com/user-attachments/assets/171d190f-1765-49e6-a145-bafc6fffc4d3" />
+
 
 ---
 
